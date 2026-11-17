@@ -2,6 +2,7 @@
 # 1. 
 # 2. 
 # 3. 
+
 print(f"-----Exercise 1-----")
 
 print(f"-----Exercise 2-----")

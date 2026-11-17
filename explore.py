@@ -45,3 +45,7 @@ subset = df[['region', 'product', 'revenue']]
 print(subset.shape)
 
 print(f"-----Exercise 8-----")
+import os
+
+df.to_csv('data/explored.csv', index=False)
+print("File exists:", os.path.exists('data/explored.csv'))

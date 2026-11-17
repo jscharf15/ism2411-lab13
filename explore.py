@@ -36,6 +36,8 @@ print(df.head())
 print(df['per_unit'].mean())
 
 print(f"-----Exercise 6-----")
+print(df['region'].unique())
+print(df['region'].value_counts())
 
 print(f"-----Exercise 7-----")
 

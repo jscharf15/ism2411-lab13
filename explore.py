@@ -14,6 +14,10 @@ print(df.columns.tolist())
 print(df.dtypes)
 
 print(f"-----Exercise 2-----")
+south = df[df['region'] == 'South']
+
+print(len(south))
+print(south.head())
 
 print(f"-----Exercise 3-----")
 

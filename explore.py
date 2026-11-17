@@ -40,5 +40,8 @@ print(df['region'].unique())
 print(df['region'].value_counts())
 
 print(f"-----Exercise 7-----")
+subset = df[['region', 'product', 'revenue']]
+
+print(subset.shape)
 
 print(f"-----Exercise 8-----")

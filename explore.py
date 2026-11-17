@@ -20,6 +20,8 @@ print(len(south))
 print(south.head())
 
 print(f"-----Exercise 3-----")
+top5 = df.sort_values('revenue', ascending=False).head(5)
+print(top5)
 
 print(f"-----Exercise 4-----")
 

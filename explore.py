@@ -1,5 +1,5 @@
 # Reflection
-# 1. Question one
+# 1. 
 # 2.
 # 3.
 
@@ -40,9 +40,9 @@ print(df['region'].unique())
 print(df['region'].value_counts())
 
 print(f"-----Exercise 7-----")
-subset = df[['region', 'product', 'revenue']]
+df_subset = df[['region', 'product', 'revenue']]
 
-print(subset.shape)
+print(df_subset.shape)
 
 print(f"-----Exercise 8-----")
 import os

@@ -1,7 +1,7 @@
 # Reflection
-# 1. 
-# 2.
-# 3.
+# 1. A boolean filter evaluates a condition (True/False) for every row and discards the Falses.
+# 2. Single brackets return a series, a single one-dimensional column of values. While double brackets return a dataframe, a table that has just one column in it.
+# 3. The most compelling reason is that pandas lets you write the steps once and rerun them on new data instantly. 
 
 print(f"-----Exercise 1-----")
 import pandas as pd
